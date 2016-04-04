@@ -15,7 +15,7 @@ fetch.samples(ids = NULL, flags = NULL, bad.flags = NULL, group = NULL,
 
 \item{group}{limit to samples from a defined group}
 
-\item{by}{search by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name})}
+\item{by}{search by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name"})}
 
 \item{strict.case}{logical; if \code{TRUE}, perform case-sensitive search}
 

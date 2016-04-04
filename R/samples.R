@@ -3,7 +3,7 @@
 #' Retrieve a list of samples by name or ID
 #'
 #' @param ids a vector of identifiers to search for; "%" is wildcard character
-#' @param by search by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name})
+#' @param by search by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name"})
 #' @param strict.case logical; if \code{TRUE}, perform case-sensitive search
 #' @param bad.flags characters in \code{flags} column of database which indicaes a failed sample
 #' @param group limit to samples from a defined group
