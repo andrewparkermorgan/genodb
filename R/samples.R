@@ -25,11 +25,11 @@ fetch.samples <- function(ids = NULL, flags = NULL, bad.flags = NULL, group = NU
 	else if (db == "muga")
 		.fetch.samples.mm(ids = ids, flags = flags, bad.flags = "u", group = group,
 						  by = by, exact = exact, strict.case = strict.case, verbose = verbose,
-						  db = getOption("genodb.MUGADBBPATH"))
+						  db = getOption("genodb.MUGADBPATH"))
 	else if (db == "giga")
 		.fetch.samples.mm(ids = ids, flags = flags, bad.flags = "u", group = group,
 						  by = by, exact = exact, strict.case = strict.case, verbose = verbose, 
-						  db = getOption("genodb.GIGADBBPATH"))
+						  db = getOption("genodb.GIGADBPATH"))
 	else
 		.dbnotfound()
 	
