@@ -8,7 +8,7 @@
 #' @param start limit to markers with genomic position >= \code{start} (requires \code{chr})
 #' @param end limit to markers with genomic position <= \code{end} (requires \code{chr})
 #' @param raw logical; if \code{TRUE}, return raw rather than Illumina-normalized intensities
-#' @param by search for samples by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name})
+#' @param by search for samples by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name"})
 #' @param db which database to search: must be one of \code{"mm"} (MegaMUGA), \code{"muga"}, (MUGA) or \code{"giga"} (GigaMUGA)
 #' @param verbose logical; if \code{TRUE}, show progress meter and diagnostic messages to console
 #' 

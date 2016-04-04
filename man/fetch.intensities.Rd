@@ -21,7 +21,7 @@ fetch.intensities(ids, markers = NULL, chr = NULL, start = NULL,
 
 \item{raw}{logical; if \code{TRUE}, return raw rather than Illumina-normalized intensities}
 
-\item{by}{search for samples by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name})}
+\item{by}{search for samples by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name"})}
 
 \item{db}{which database to search: must be one of \code{"mm"} (MegaMUGA), \code{"muga"}, (MUGA) or \code{"giga"} (GigaMUGA)}
 
