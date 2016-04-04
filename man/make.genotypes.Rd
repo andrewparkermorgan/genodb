@@ -12,7 +12,7 @@ make.genotypes(ids, snps = NULL, by = c("name", "id"),
 
 \item{snps}{a code{dataframe} containing marker map in \code{argyle} format: columns chromosome, marker name, cM position, physical position, allele 1, allele 2}
 
-\item{by}{search for samples by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name})}
+\item{by}{search for samples by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name"})}
 
 \item{keep.intensity}{logical; if \code{TRUE}, return both genotype calls and hybridization intensities}
 

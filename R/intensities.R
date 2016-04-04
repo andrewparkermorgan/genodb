@@ -92,7 +92,7 @@ fetch.intensities <- function(ids, markers = NULL, chr = NULL, start = NULL, end
 #'
 #' @param ids vector of sample IDs (names or internal database IDs)
 #' @param snps a code{dataframe} containing marker map in \code{argyle} format: columns chromosome, marker name, cM position, physical position, allele 1, allele 2
-#' @param by search for samples by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name})
+#' @param by search for samples by unique numeric ID (\code{"id"}) or by human-readable sample name (\code{"name"})
 #' @param keep.intensity logical; if \code{TRUE}, return both genotype calls and hybridization intensities
 #' @param make.names.markers logical; if \code{TRUE}, sanitize marker names of some non-alphanumeric characters with \code{make.names()}
 #' @param ... other options passed to \code{fetch.intensities()}
