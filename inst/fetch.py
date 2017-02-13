@@ -1,8 +1,8 @@
 #! /usr/bin/env python -u
-
-## --- genodb.py --- ##
-##	Date: 12 Jan 2015
-##	Purpose: query genotype databases and dump result to file for reading in from R, because RSQLite interface is really slow
+"""
+genodb.py
+Query genotype databases and dump result to file for reading in from R, because RSQLite interface is sometimes slow
+"""
 
 from __future__ import print_function
 

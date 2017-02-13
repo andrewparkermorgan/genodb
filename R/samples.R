@@ -54,7 +54,7 @@ fetch.samples <- function(ids = NULL, flags = NULL, bad.flags = NULL, group = NU
 						  "INNER JOIN _mysamples as sg ON s.", by, " = sg.", by)
 		}
 		else {
-			sql <- paste0(sql, " FROM SAMPLES s ",
+			sql <- paste0(sql, " FROM samples s ",
 						  "WHERE s.name LIKE '", ids[1], "'")
 		}
 	}
